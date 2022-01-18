@@ -13,7 +13,7 @@ jobs:
         submodules: true
 
     - name: Copiler
-      run: bash Build.sh
+      run: sudo bash Build.sh
 
     - name: Upload To Releases
       uses: softprops/action-gh-release@v1
